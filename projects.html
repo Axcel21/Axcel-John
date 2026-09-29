@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PERSONAL PORTFOLIO WEBSITE</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <span class="brand-name">Axcel John</span>
+    <button class="hamburger" data-hamburger aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-drawer" data-mobile-drawer aria-label="Mobile navigation">
+    <ul class="nav-list">
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="about.html">About</a></li>
+      <li><a class="nav-link" href="skills.html">Skills</a></li>
+      <li><a class="nav-link" href="projects.html">Projects</a></li>
+      <li><a class="nav-link" href="resume.html">Resume</a></li>
+      <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <div class="social-row">
+        <a href="https://github.com/Axcel21" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="mailto:axceljohn@example.com" aria-label="Email">@</a>
+      </div>
+      <button class="theme-toggle" data-theme-toggle type="button">
+        <span class="icon-light">🌙 Dark mode</span>
+        <span class="icon-dark">☀️ Light mode</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AJ</div>
+        <span class="brand-name">Axcel John</span>
+        <span class="brand-role">BSINT Student</span>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="resume.html">Resume</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="social-row">
+          <a href="https://github.com/Axcel21" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="mailto:alex.rivera@example.com" aria-label="Email">@</a>
+        </div>
+        <button class="theme-toggle" data-theme-toggle type="button">
+          <span class="icon-light">🌙 Dark mode</span>
+          <span class="icon-dark">☀️ Light mode</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="content-wide">
+        <div class="page-header">
+          <h1>Projects</h1>
+          <p class="section-lead">My projects showcase my knowledge and skills in Information Technology through the use of different software and tools.</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter projects by technology">
+          <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="Animation" type="button">Animation</button>
+          <button class="filter-btn" data-filter="Cisco" type="button">Cisco</button>
+          <button class="filter-btn" data-filter="Power Point" type="button">Power Point</button>
+          <button class="filter-btn" data-filter="Adobe Illustrator" type="button">Adobe Illustrator</button>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card" data-project-tags="Animation">
+            <div class="project-thumb" data-modal-trigger data-caption="Rise Brew">
+              <img src="images/rise brew.jpg" alt="Screenshot of the Rise Brew" />
+            </div>
+            <div class="project-body">
+              <h3>Rise Brew</h3>
+              <p>Modern coffee shop that offers freshly brewed coffee, refreshing beverages, and delicious snacks in a welcoming environment.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Animation</a>
+                <a href="#" target="_blank" rel="noopener">Adobe Animate</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="Cisco">
+            <div class="project-thumb" data-modal-trigger data-caption="Cisco Packet Tracer">
+              <img src="images/cisco.jpg" alt="Screenshot of the Cisco Packet Tracer" />
+            </div>
+            <div class="project-body">
+              <h3>Activity 2 Hybrid Ring and Star Configuration</h3>
+              <p>Network simulation software developed by Cisco that allows users to design, configure, and test
+                 computer networks in a virtual environment.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Cisco Packet Tracer</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="Power Point">
+            <div class="project-thumb" data-modal-trigger data-caption="Power Point Project">
+              <img src="images/Power Point Project.jpg" alt="Screenshot of the Power Point" />
+            </div>
+            <div class="project-body">
+              <h3>Power Point Project</h3>
+              <p>Presents a simple and colorful outdoor scene featuring a sunset, green landscape, a tree, and people walking on a road.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Power Point</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="Adobe Illustrator">
+            <div class="project-thumb" data-modal-trigger data-caption="Adobe Illustrator">
+              <img src="images/adobe illustrator.jpg" alt="Screenshot of the Adobe Illustrator" />
+            </div>
+            <div class="project-body">
+              <h3>Activity 1 Small Office</h3>
+              <p>computer network layout diagram that shows the arrangement and connection of networking devices, including a router, 
+                 switch, server, wireless access point (WAP), desktop computers, and laptops.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener">Visual Graphics & Design</a>
+                <a href="#" target="_blank" rel="noopener">Adobe Illustrator</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <footer class="site-footer">
+          <span>© <span data-year></span>Axcel John</span>
+          <span>Hosted on GitHub Pages</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <!-- Image modal / lightbox, shared by every project thumbnail -->
+  <div class="modal-overlay" data-modal-overlay>
+    <div class="modal-box">
+      <img data-modal-image src="" alt="" />
+      <div class="modal-caption">
+        <span data-modal-caption></span>
+        <button class="modal-close" data-modal-close aria-label="Close preview">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="scroll-top-btn" data-scroll-top aria-label="Scroll back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
